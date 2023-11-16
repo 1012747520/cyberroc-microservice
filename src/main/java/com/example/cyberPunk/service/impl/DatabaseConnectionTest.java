@@ -8,9 +8,9 @@ import java.sql.Statement;
 public class DatabaseConnectionTest {
 
     public static void main(String[] args) {
-        String url = "jdbc:mysql://1.tcp.vip.cpolar.cn:21142/mysql";
+        String url = "jdbc:mysql://120.79.254.225:3306/mysql";
         String username = "root";
-        String password = "84737866CRY";
+        String password = "84737866CRy";
 
         try {
             // Register JDBC driver

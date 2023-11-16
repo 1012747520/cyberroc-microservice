@@ -8,9 +8,9 @@ spring:
     allow-circular-references: true
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://1.tcp.vip.cpolar.cn:21142/mysql
+    url: jdbc:mysql://120.79.254.225:3306/mysql
     username: root
-    password: 84737866CRY
+    password: 84737866CRy
 mybatis-plus:
   mapper-locations: classpath*:com/example/cyberPunk/**/xml/*Mapper.xml
   global-config:
