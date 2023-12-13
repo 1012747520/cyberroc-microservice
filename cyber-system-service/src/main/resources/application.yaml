@@ -1,0 +1,28 @@
+server:
+  port: 8020
+spring:
+  application:
+    name: cyber-system-service2
+  cloud:
+    nacos:
+      discovery:
+        # 服务注册地址
+        server-addr: 120.79.254.225:8848
+  activemq:
+    pool:
+      maximum-active-session-per-connection:100
+  main:
+    allow-circular-references: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://120.79.254.225:3306/mysql
+    username: root
+    password: 84737866CRy
+mybatis-plus:
+  mapper-locations: classpath*:com/example/cyberPunk/**/xml/*Mapper.xml
+  global-config:
+    banner: false
+    db-config:
+      id-type: ASSIGN_ID
+      table-underline: true
+
